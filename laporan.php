@@ -95,7 +95,7 @@
                                     <td><?= $data['harga']; ?></td>
                                     <td><?= $data['total']; ?></td>
                                     <td>
-                                        <a href="hapus.php?id=<?= $data['id']; ?>" class="hapus" onclick="return confirm('yakin?')">Hapus</a>
+                                        <a href="hapusLaporan.php?id=<?= $data['id']; ?>" class="hapus" onclick="return confirm('yakin?')">Hapus</a>
                                     </td>
                                 </tr>
                                 <?php $no++; ?>
