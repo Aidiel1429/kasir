@@ -1,0 +1,207 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: #387adf;
+  padding: 20px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.sidebar {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 15px;
+  background-color: white;
+  width: 300px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  height: 170px;
+}
+
+.judul {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.garis {
+  border: 0.5px solid #505050;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  text-decoration: none;
+}
+
+.a2 {
+  margin-left: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.list > i {
+  color: #387adf;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #333;
+}
+
+.card {
+  margin-top: 20px;
+  margin-right: 15px;
+  padding: 15px;
+  background-color: white;
+  width: 990px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  height: 260px;
+  margin-bottom: 20px;
+}
+
+.tambahBrg {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 7px;
+}
+
+.garis {
+  border: 0.5px solid #505050;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 470px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 0.5px solid #333;
+  margin-top: 5px;
+}
+
+input:focus {
+  border: 0.5px solid #387adf;
+  outline: 0.5px solid #387adf;
+}
+
+.namaBarang {
+  float: right;
+  margin-top: -60px;
+}
+
+.tglBarang {
+  float: right;
+  margin-top: -62px;
+}
+
+.hargaBarang {
+  margin-top: 20px;
+}
+
+.card2 {
+  margin-top: 20px;
+  margin-left: -14px;
+  padding: 15px;
+  background-color: white;
+  width: 990px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.formSearch {
+  display: flex;
+}
+
+.search {
+  margin-top: -10px;
+  width: 300px;
+  height: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0px;
+}
+
+.cari {
+  width: 100px;
+  background-color: #387adf;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-top: -10px;
+  border: 0.5px solid #387adf;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+table {
+  margin-top: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th {
+  padding: 7px;
+  color: white;
+  background-color: #387adf;
+  text-align: left;
+  border-color: #f0f0f0;
+}
+td {
+  padding: 8px;
+  border-color: #f0f0f0;
+}
+
+.edit {
+  background-color: #387adf;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.hapus {
+  background-color: rgb(255, 67, 67);
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.submit {
+  width: 100px;
+  background-color: #387adf;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #387adf;
+}
